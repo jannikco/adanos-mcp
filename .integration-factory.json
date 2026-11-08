@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "7349827f3649e299a8a20dbc65ed5b107e37308ce3d89ec1972edab68a90b801",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.adanos.org/openapi.json"
+  ],
+  "id": "adanos-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Adanos MCP setup and connection checker",
+  "description": "Generate Adanos MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "adanos",
+  "appName": "Adanos",
+  "providerDocs": "https://api.adanos.org/openapi.json",
+  "providerWebsite": "https://adanos.org/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://api.adanos.org/docs",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-adanos-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
