@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-adanos",
+      "description": "Connect AI agents to Adanos using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-adanos/SKILL.md": "91be824c26f3af8d2ef4dd512fa63d5071d1657a5251877f74388e0fd9898846"
+  }
+}
